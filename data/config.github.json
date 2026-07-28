@@ -70,6 +70,48 @@
         "url": "https://lwn.net/headlines/full_text?key=${LWN_KEY}",
         "enabled": true,
         "category": "linux-kernel"
+      },
+      {
+        "name": "中国新闻网 - 时政",
+        "url": "https://www.chinanews.com.cn/rss/china.xml",
+        "enabled": true,
+        "category": "game-rules"
+      },
+      {
+        "name": "中国新闻网 - 法治",
+        "url": "https://www.chinanews.com.cn/rss/fz.xml",
+        "enabled": true,
+        "category": "game-rules"
+      },
+      {
+        "name": "中国新闻网 - 财经",
+        "url": "https://www.chinanews.com.cn/rss/finance.xml",
+        "enabled": true,
+        "category": "capital-allocation"
+      },
+      {
+        "name": "中国新闻网 - 国际",
+        "url": "https://www.chinanews.com.cn/rss/world.xml",
+        "enabled": true,
+        "category": "global-structural-signals"
+      },
+      {
+        "name": "Solidot",
+        "url": "https://www.solidot.org/index.rss",
+        "enabled": true,
+        "category": "productivity-boundaries"
+      },
+      {
+        "name": "少数派",
+        "url": "https://sspai.com/feed",
+        "enabled": true,
+        "category": "productivity-boundaries"
+      },
+      {
+        "name": "爱范儿",
+        "url": "https://www.ifanr.com/feed",
+        "enabled": true,
+        "category": "productivity-boundaries"
       }
     ],
     "reddit": {
@@ -104,6 +146,15 @@
           "fetch_limit": 20
         }
       ]
+    },
+    "google_news": {
+      "enabled": true,
+      "query": "(法规 OR 监管 OR 强制标准 OR 税务合规 OR 金融合规 OR 财政补贴 OR 降息 OR 加息 OR 资本开支 OR 研发投入 OR 基础设施投资 OR 生产效率 OR 降低成本 OR 正式发布)",
+      "language": "zh-CN",
+      "country": "CN",
+      "ceid": "CN:zh-Hans",
+      "max_results": 100,
+      "category": "structural-signals"
     }
   },
   "filtering": {
