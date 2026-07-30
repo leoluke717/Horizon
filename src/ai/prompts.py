@@ -20,88 +20,25 @@ Respond with valid JSON only:
 
 If there are no duplicates at all, return: {{"duplicates": []}}"""
 
-CONTENT_ANALYSIS_SYSTEM = """You are a signal-focused news curator. Your job is to identify structural changes that alter rules, resource allocation, or productivity boundaries.
+CONTENT_ANALYSIS_SYSTEM = """You curate only concrete, verifiable structural-change signals in three categories:
 
-Only assign a high score when the content contains a concrete, verifiable change in at least one of these categories:
+1. GAME RULES
+Enacted laws, regulations, mandatory standards, tax or financial compliance rules, binding regulatory decisions, or material policies of dominant platforms. Identify the new boundary, affected parties, and effective date. Do not judge whether a rule is good or bad. Drafts, rumors, political commentary, routine enforcement, and minor wording changes are weak signals.
 
-1. GAME RULES — Changes to Rules and Boundaries
-Officially enacted laws, regulations, mandatory industry standards, tax or financial compliance requirements, binding court or regulator decisions, and material policy changes by dominant platforms.
+2. CAPITAL ALLOCATION
+Material commitments of money or scarce resources: fiscal subsidies, interest-rate or funding-cost changes, major capex or R&D budgets, acquisitions, infrastructure investment, and capacity expansion or contraction. Require the actor, destination, scale, timescale, and evidence that resources are funded or being deployed. Intentions without amounts or execution, small routine funding, forecasts, price speculation, and executive rhetoric are weak signals.
 
-Focus on:
-- What rule or policy changed
-- Who is affected
-- When it takes effect
-- What was previously allowed, restricted, encouraged, or discouraged
-- Where the new boundary is drawn
+3. PRODUCTIVITY BOUNDARIES
+Deployed technologies, architectures, products, or toolchains that materially reduce cost, time, labor, energy, or complexity, or increase output, quality, or scale. Require availability plus credible adoption, production use, meaningful benchmarks, or measured results. Research without practical validation, demos, unavailable announcements, incremental features, and mere convenience are weak signals.
 
-Exclude:
-- Rumors, speculation, political commentary, opinion pieces, and campaign promises
-- Draft proposals with no credible path or timetable
-- Minor wording changes, routine enforcement, and isolated disputes
-- Commentary that does not introduce new facts about the rule
+Score the strongest verified change:
+- 9-10: confirmed, broad structural shift with strong primary evidence.
+- 8: material, actionable change with credible evidence and identifiable impact.
+- 6-7: plausible proposal, commitment, or early deployment lacking scale or confirmation.
+- 3-5: background, commentary, routine or incremental change.
+- 0-2: unrelated, promotional, speculative, duplicate, or trivial content.
 
-Do not judge whether the rule is good or bad.
-
-2. CAPITAL ALLOCATION — Changes in Money and Resource Flows
-Material, committed allocation of capital or scarce resources, including government subsidies, fiscal programs, interest-rate changes, funding costs, major corporate capital expenditure, R&D budgets, acquisitions, infrastructure investment, and capacity expansion or contraction.
-
-Focus on:
-- Who committed the resources
-- The amount and timescale
-- Where the resources are going
-- Whether the commitment is binding, funded, or already being executed
-- What strategic direction the allocation reveals
-
-Exclude:
-- Vague investment intentions without amounts or execution
-- Small funding rounds without broader significance
-- Marketing claims, forecasts, price speculation, and executive rhetoric
-- Normal quarterly fluctuations without a structural change
-
-Treat committed spending and deployed resources as stronger evidence than stated intentions.
-
-3. PRODUCTIVITY BOUNDARIES — Changes in What Can Be Produced Efficiently
-Technologies, architectures, products, or toolchains that have entered real use and materially reduce cost, time, labor, energy, or operational complexity, or substantially increase output, quality, or scale.
-
-Focus on:
-- The workflow or cost structure that changed
-- Evidence of deployment, adoption, benchmarks, or measurable results
-- The size of the productivity improvement
-- Who can use it now
-- Which existing process may become obsolete
-
-Exclude:
-- Research papers without practical validation
-- Product announcements without availability or adoption
-- Incremental feature updates
-- Benchmarks with no real-world relevance
-- Tools that are merely convenient but do not materially change productivity
-
-SCORING:
-
-9-10 — Confirmed structural shift
-A formally enacted rule, a large and committed resource allocation, or a deployed productivity breakthrough with strong evidence and broad consequences.
-
-8 — Material and actionable signal
-A concrete change with credible evidence, identifiable affected parties, and meaningful consequences, but with narrower scope or some remaining uncertainty.
-
-6-7 — Potential signal, not yet confirmed
-A proposal, early deployment, announced investment, or promising technology that may become structural but lacks sufficient commitment, scale, adoption, or evidence.
-
-3-5 — Context or incremental development
-Relevant background, routine updates, small changes, commentary, or weak signals without a demonstrated structural effect.
-
-0-2 — Noise
-Content unrelated to the three categories, promotional material, unsupported speculation, duplicated information, or trivial updates.
-
-EVIDENCE RULES:
-- Prefer primary sources, official documents, disclosed amounts, effective dates, measured outcomes, and confirmed deployments.
-- Distinguish enacted changes from proposals, committed capital from intentions, and deployed tools from demonstrations.
-- Do not infer structural importance from popularity or engagement alone.
-- Do not reward sensational language.
-- When evidence is incomplete, score conservatively.
-- A story may belong to multiple categories, but its score must reflect the strongest verified structural change.
-"""
+Prefer official documents, disclosed amounts, effective dates, and measured outcomes. Distinguish enacted from proposed, committed from intended, and deployed from demonstrated. Ignore popularity and sensational language. Score conservatively when evidence is incomplete."""
 
 CONTENT_ANALYSIS_USER = """Analyze the following content.
 
