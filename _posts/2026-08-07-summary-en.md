@@ -5,143 +5,184 @@ date: 2026-08-07
 lang: en
 ---
 
-> From 194 items, 7 important content pieces were selected
+> From 187 items, 10 important content pieces were selected
 
 ---
 
-1. [AMD acquires Taalas to etch AI models into silicon](#item-1) ⭐️ 8.0/10
-2. [Ningxia enacts first local veterans protection regulation](#item-2) ⭐️ 8.0/10
-3. [Trump Signs Proclamation on Polysilicon Minimum Prices and Tariffs](#item-3) ⭐️ 8.0/10
-4. [Trump Signs Executive Orders to Tighten Birthright Citizenship, Ban Birth Tourism](#item-4) ⭐️ 8.0/10
-5. [Rust Language Team Announces LLM Policy](#item-5) ⭐️ 8.0/10
-6. [China Approves eSIM Trials, Set to Become World&\#x27;s Largest Market](#item-6) ⭐️ 8.0/10
-7. [DeepSeek Invests $20.8M in Unitree&\#x27;s Shanghai IPO for Embodied AI](#item-7) ⭐️ 8.0/10
+1. [SEC Approves Nasdaq 23-Hour Trading, Launching December 6](#item-1) ⭐️ 9.0/10
+2. [New Mexico court orders Meta to pay $567m over children&\#x27;s mental health harms](#item-2) ⭐️ 8.0/10
+3. [First International Standard for Rollable Display Flattening Force Released](#item-3) ⭐️ 8.0/10
+4. [Beijing Cuts Non-Local Homebuyer Tax Period to 1 Year](#item-4) ⭐️ 8.0/10
+5. [Saudi Arabia, Turkey, Pakistan Sign Joint Defense Pact](#item-5) ⭐️ 8.0/10
+6. [AMD Acquires AI Startup Taalas with Weight-on-Chip Technology](#item-6) ⭐️ 8.0/10
+7. [FDA Approves First mRNA Flu Vaccine](#item-7) ⭐️ 8.0/10
+8. [Anthropic Updates Fable 5 Biological Safety Guardrails, False Positives Plummet](#item-8) ⭐️ 8.0/10
+9. [China Eastern Airlines allows free refunds 14 days before departure](#item-9) ⭐️ 8.0/10
+10. [Chevrolet Exits China: 7.5 Million Owners, 21-Year Joint Venture Ends](#item-10) ⭐️ 8.0/10
 
 ---
 
 <a id="item-1"></a>
-## [AMD acquires Taalas to etch AI models into silicon](https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344) ⭐️ 8.0/10
+## [SEC Approves Nasdaq 23-Hour Trading, Launching December 6](https://finance.sina.com.cn/stock/bxjj/2026-08-07/doc-inimnkup0012339.shtml) ⭐️ 9.0/10
 
-AMD has acquired AI chip startup Taalas, which specializes in etching AI model weights directly into silicon at manufacturing time, promising significant inference performance improvements. This acquisition signals AMD&\#x27;s strategic push to challenge Nvidia&\#x27;s dominance in AI inference hardware by investing in specialized silicon that could offer orders of magnitude better performance and energy efficiency. It also highlights the trend of hardcoding AI models into chips to reduce memory bottlenecks and latency. Taalas&\#x27;s technology permanently etches model weights into transistors, eliminating the need to load weights from memory during inference. The startup claims up to 73x faster inference than Nvidia&\#x27;s H200 at a fraction of the power, and its HC1 chip is already in production.
+The U.S. Securities and Exchange Commission \(SEC\) has approved Nasdaq&\#x27;s proposal to operate a 23-hour trading day \(23/5\), reducing the daily closure to just one hour. The new schedule will take effect on December 6, 2026. This approval marks a major shift in U.S. equity market structure, dramatically extending trading hours and potentially increasing market accessibility and liquidity. However, concerns remain about investor protection and market stability during the extended hours, which the SEC plans to address in a roundtable discussion. Under the 23/5 schedule, the market will close only from 8:00 PM to 9:00 PM ET daily for system clearing and data processing. Retail investors already have access to overnight trading through alternative trading systems like Blue Ocean ATS, but these sessions typically have thinner liquidity and wider spreads.
 
-hackernews · itvision · Aug 6, 20:23 · [Discussion](https://news.ycombinator.com/item?id=49201970)
+telegram · zaihuapd · Aug 7, 10:03
 
-**Background**: AI inference typically requires loading model weights from memory into a processor, which creates a bandwidth bottleneck. Taalas&\#x27;s approach bakes the weights directly into the chip&\#x27;s circuitry at fabrication time, so the weights become part of the hardware. This can dramatically reduce latency and power consumption but makes the chip specific to a particular model, raising concerns about model updates and obsolescence. AMD&\#x27;s acquisition follows a $169 million funding round for Taalas and reflects the industry&\#x27;s search for specialized inference hardware beyond GPUs.
+**Background**: The move toward extended trading hours is part of a broader trend in U.S. equity markets. The New York Stock Exchange&\#x27;s NYSE Arca received accelerated approval for 22-hour trading, and Cboe has also submitted a near-24x5 proposal. These changes aim to meet growing demand for after-hours trading, which has been facilitated by alternative trading systems like Blue Ocean ATS. The SEC&\#x27;s approval of Nasdaq&\#x27;s 23-hour plan follows similar approvals for other exchanges, signaling a shift toward nearly round-the-clock trading.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://www.theregister.com/systems/2026/08/06/amd-acquires-ai-chip-startup-taalas-to-boost-inference-performance-by-etching-models-into-silicon/5284344">AMD acquires AI chip startup Taalas to boost inference performance...</a></li>
-<li><a href="https://byteiota.com/amd-buys-taalas-ai-weights-etched-into-silicon-today/">AMD Buys Taalas: AI Weights Etched Into Silicon Today | byteiota</a></li>
-<li><a href="https://awesomeagents.ai/news/taalas-169m-ai-chip-nvidia-challenge/">Taalas Exits Stealth With $169 Million to Hardcode AI Models Into ...</a></li>
+<li><a href="https://blueocean-tech.io/">Blue Ocean Technologies LLC</a></li>
+<li><a href="https://www.sifma.org/issues/market-structure/extended-trading-hours">Extended Trading Hours Archives</a></li>
+<li><a href="https://insight.factset.com/24/5-trading-what-it-is-why-its-coming-and-what-it-means-for-your-data-stack">24/5 Trading: What It Is, Why It’s Coming, and What It Means for Your Data Stack</a></li>
 
 </ul>
 </details>
 
-**Discussion**: Community comments express a mix of excitement and skepticism. Some users are impressed by the performance claims but question how the technology will handle rapid model churn, as chips etched for one model may become obsolete quickly. Others note that Google and other companies are already pursuing similar approaches, and wonder why OpenAI or Anthropic didn&\#x27;t make this move.
-
-**Tags**: `#capital\_allocation`, `#AI inference`, `#acquisition`
+**Tags**: `#game\_rules`, `#SEC approval`, `#trading hours`, `#Nasdaq`, `#23-hour trading`, `#market structure`
 
 ---
 
 <a id="item-2"></a>
-## [Ningxia enacts first local veterans protection regulation](https://www.chinanews.com.cn/gn/2026/08-06/10673254.shtml) ⭐️ 8.0/10
+## [New Mexico court orders Meta to pay $567m over children&\#x27;s mental health harms](https://www.theguardian.com/technology/2026/aug/06/new-mexico-court-meta) ⭐️ 8.0/10
 
-Ningxia&\#x27;s first local regulation implementing the national Veterans Protection Law was passed on July 31, 2026, and will take effect on September 1, 2026. This regulation fills a legislative gap in Ningxia, providing a legal foundation for veterans&\#x27; services and benefits, and marks a significant step in the legalization of veterans&\#x27; protection in the region. The regulation was approved by the 26th session of the 13th Ningxia People&\#x27;s Congress Standing Committee and is the first local legislation in the field of veterans affairs in Ningxia.
+A New Mexico court ruled that Meta violated the state&\#x27;s public nuisance law by designing its platforms to addict children, harming their mental health. The court ordered Meta to pay $567 million into a fund for teen mental health and to implement operational changes for underage users. This ruling sets a significant precedent for holding social media companies liable under public nuisance law for harms to children&\#x27;s mental health. It could encourage other states to pursue similar actions, potentially reshaping how platforms design features for minors. The specific law cited is New Mexico&\#x27;s public nuisance statute \(NMSA 1978 § 30-8-1\). The judgment amount is substantial relative to New Mexico&\#x27;s population of about 2 million, and Meta is expected to appeal the ruling.
 
-rss · 中国新闻网 - 时政 · Aug 6, 14:19
+hackernews · boplicity · Aug 7, 00:06 · [Discussion](https://news.ycombinator.com/item?id=49204352)
 
-**Background**: The national Veterans Protection Law was enacted in 2020 to safeguard the rights and interests of veterans. Local regulations are necessary to adapt the national law to regional conditions, and Ningxia&\#x27;s new regulation is a key step toward comprehensive implementation.
+**Background**: Public nuisance law traditionally covers actions that harm the health, safety, or welfare of the public. This case extends that concept to digital platform design, arguing that addictive features constitute a nuisance. Meta operates Instagram and Facebook, which have been criticized for contributing to teen mental health issues.
 
-**Tags**: `#game\_rules`, `#veterans protection`, `#local legislation`, `#China`
+**Discussion**: Commenters noted that while the $567 million judgment is small relative to Meta&\#x27;s global revenue, it is enormous for a state with only 2 million people. Some expressed concern that such fines might be seen as merely a &\#x27;cost of doing business,&\#x27; while others shared personal experiences of social media addiction.
+
+**Tags**: `#game\_rules`, `#social media liability`, `#children&\#x27;s mental health`, `#New Mexico`, `#Meta`
 
 ---
 
 <a id="item-3"></a>
-## [Trump Signs Proclamation on Polysilicon Minimum Prices and Tariffs](https://www.chinanews.com.cn/gj/2026/08-07/10673312.shtml) ⭐️ 8.0/10
+## [First International Standard for Rollable Display Flattening Force Released](https://www.chinanews.com.cn/gn/2026/08-07/10673833.shtml) ⭐️ 8.0/10
 
-President Trump signed a presidential proclamation on August 6, 2026, imposing minimum import prices and additional tariffs on imported polysilicon and its derivative products under Section 232 of the Trade Expansion Act of 1962, to support the U.S. domestic supply chain. This action could significantly impact the global solar photovoltaic and electronics industries, as polysilicon is a key raw material. It may raise costs for downstream users in the U.S. and provoke trade disputes with major exporting countries like China. The proclamation specifies a minimum import price of $21 per kilogram for polysilicon, and separate prices for polysilicon ingots and wafers. The exact tariff rates and implementation timeline have not been disclosed, and the measures may face legal challenges.
+On August 7, 2026, the International Electrotechnical Commission \(IEC\) published the world&\#x27;s first international standard for rollable display flattening force testing, titled &\#x27;Flexible displays - Part 6-42: Mechanical test methods - Flattening force test method for rollable display devices&\#x27;. The standard was led by Chinese experts and developed in collaboration with experts from South Korea, the United States, Germany, Japan, and other countries. This standard fills a gap in international standards for mechanical testing of rollable displays, providing a common benchmark for flattening force testing. It can improve productivity and consistency in the flexible display industry, benefiting manufacturers, testing labs, and the supply chain, while also demonstrating China&\#x27;s growing leadership in international standardization for emerging display technologies. The standard is voluntary, so its actual adoption rate remains uncertain. It specifies a method for measuring the force required to flatten a rollable display, which is critical for quality control, and was developed under IEC Technical Committee 110 \(Flat Panel Display Devices\).
 
-rss · 中国新闻网 - 国际 · Aug 6, 23:22
+rss · 中国新闻网 - 时政 · Aug 7, 11:39
 
-**Background**: Polysilicon is a high-purity form of silicon used as a raw material in solar cells and electronics. Section 232 of the Trade Expansion Act of 1962 allows the U.S. President to adjust imports of goods that threaten national security. A minimum import price is a trade barrier that sets a floor price for imports; if the import price is below that floor, additional duties may be imposed to discourage low-priced imports.
+**Background**: Rollable displays are flexible electronic screens that can be rolled up like a scroll, used in devices such as e-readers, smartphones, and televisions. Flattening force testing measures the mechanical force needed to flatten the display after being rolled, which affects user experience and durability. Before this standard, there was no internationally agreed method for this test, leading to inconsistency across manufacturers.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://zh.wikipedia.org/wiki/%E5%A4%9A%E6%99%B6%E7%A1%85">多晶硅 - 维基百科，自由的百科全书</a></li>
-<li><a href="https://baike.baidu.com/item/%E7%BE%8E%E5%9B%BD232%E8%B0%83%E6%9F%A5/20864202">美国232调查_百度百科</a></li>
-<li><a href="https://baike.baidu.com/item/%E8%BF%9B%E5%8F%A3%E6%9C%80%E4%BD%8E%E9%99%90%E4%BB%B7%E5%88%B6/2609504">进口最低限价制_百度百科</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Rollable_display">Rollable display</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Flexible_display">Flexible display - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#game\_rules`, `#trade policy`, `#tariffs`, `#polysilicon`
+**Tags**: `#productivity\_boundaries`, `#international standard`, `#rollable display`, `#testing method`
 
 ---
 
 <a id="item-4"></a>
-## [Trump Signs Executive Orders to Tighten Birthright Citizenship, Ban Birth Tourism](https://www.chinanews.com.cn/gj/2026/08-07/10673307.shtml) ⭐️ 8.0/10
+## [Beijing Cuts Non-Local Homebuyer Tax Period to 1 Year](https://www.chinanews.com.cn/cj/2026/08-07/10674007.shtml) ⭐️ 8.0/10
 
-On August 6, 2026, U.S. President Donald Trump signed two executive orders narrowing the scope of birthright citizenship and prohibiting birth tourism, where individuals travel to the U.S. to give birth so their child gains American citizenship. These executive orders represent a significant shift in U.S. citizenship policy, potentially affecting thousands of families who rely on birthright citizenship and birth tourism. The orders are likely to face legal challenges and spark debate over the interpretation of the 14th Amendment. The executive orders do not specify the exact restrictions or effective dates, leaving room for further rulemaking. The ban on birth tourism targets individuals who travel to the U.S. specifically to give birth for citizenship purposes.
+Beijing has reduced the required social insurance or tax payment period for non-Beijing households purchasing homes within the Fifth Ring Road from 2 years to 1 year. The policy also removes purchase limits for homes outside the Fifth Ring Road and increases housing provident fund loan support. This policy significantly lowers the barrier for non-Beijing residents to buy homes in the capital, potentially boosting housing demand and market activity. It reflects Beijing&\#x27;s efforts to stabilize the real estate market and support reasonable housing needs. Non-Beijing households with one year of continuous social insurance or tax payments can buy one home within the Fifth Ring Road, and families with multiple children can buy an additional one. Outside the Fifth Ring Road, there is no limit on the number of purchases. Additionally, parents gifting property to children no longer requires the child&\#x27;s purchase qualification verification.
 
-rss · 中国新闻网 - 国际 · Aug 6, 22:56
+rss · 中国新闻网 - 财经 · Aug 7, 15:19
 
-**Background**: Birthright citizenship in the United States is granted to anyone born on U.S. soil, as established by the 14th Amendment to the Constitution. Birth tourism involves pregnant women traveling to the U.S. specifically to give birth, ensuring their child obtains American citizenship. President Trump has previously expressed intent to end birthright citizenship, and these executive orders are a continuation of that effort.
+**Background**: Beijing has long maintained strict home purchase restrictions to control housing prices and population growth. Non-Beijing households were previously required to have at least 2 years of social insurance or tax payments to buy a home within the Fifth Ring Road. This new policy continues a trend of gradual relaxation in China&\#x27;s property market, aiming to stimulate demand amid economic slowdown.
 
-**Tags**: `#game\_rules`, `#immigration`, `#citizenship`
+**Tags**: `#game\_rules`, `#Beijing real estate policy`, `#housing market regulation`
 
 ---
 
 <a id="item-5"></a>
-## [Rust Language Team Announces LLM Policy](https://www.solidot.org/story?sid=85022) ⭐️ 8.0/10
+## [Saudi Arabia, Turkey, Pakistan Sign Joint Defense Pact](https://www.chinanews.com.cn/gj/2026/08-07/10673950.shtml) ⭐️ 8.0/10
 
-The Rust language team has announced a new policy restricting the use of large language models \(LLMs\) in project contributions. The policy requires that contributions be written for humans first, with LLM output only allowed for summaries and not for creation, and mandates explicit labeling of any LLM-generated content in public communications. This policy sets an important precedent for open-source projects grappling with the rise of AI-generated contributions. It emphasizes human oversight, transparency, and maintainer autonomy, potentially influencing how other communities manage LLM usage. LLM output is banned from public documentation, pull request descriptions, and GitHub comments unless explicitly labeled. Reviewers are not required to review LLM-generated PRs, and LLM content can be used for personal assistance but not for creating content intended for submission to the project.
+On August 7, 2026, Saudi Arabia, Turkey, and Pakistan signed the Mecca Joint Defense Agreement in Mecca, Saudi Arabia, establishing a formal mutual defense commitment among the three nations. This agreement creates a new formal security alliance in the region, altering the security dynamics among the signatory nations and potentially impacting broader Middle Eastern and South Asian geopolitics. The agreement aims to deepen security cooperation and strengthen collective deterrence against any aggression. The specific terms and binding nature of the agreement have not been fully disclosed.
 
-rss · Solidot · Aug 6, 07:57
+rss · 中国新闻网 - 国际 · Aug 7, 14:00
 
-**Background**: Large language models \(LLMs\) like GPT-4 can generate code and text, raising concerns about quality, attribution, and the burden on maintainers. Rust is a systems programming language focused on safety and performance, with a strong community governance model. This policy aims to preserve human judgment in contributions and prevent unvetted AI-generated code from entering the codebase.
+**Background**: A mutual defense agreement is a formal treaty in which signatory nations commit to defend each other in case of an attack. Saudi Arabia, Turkey, and Pakistan have historically maintained varying levels of cooperation, but this pact marks a new level of formalized security commitment among them.
 
-**Tags**: `#game\_rules`, `#LLM policy`, `#Rust`
+**Tags**: `#game\_rules`, `#defense agreement`, `#Saudi Arabia`, `#Turkey`, `#Pakistan`
 
 ---
 
 <a id="item-6"></a>
-## [China Approves eSIM Trials, Set to Become World&\#x27;s Largest Market](https://mp.weixin.qq.com/s/BMcKCY2x2gMh_4nE4jxaJw) ⭐️ 8.0/10
+## [AMD Acquires AI Startup Taalas with Weight-on-Chip Technology](https://www.solidot.org/story?sid=85035) ⭐️ 8.0/10
 
-In October 2025, China&\#x27;s Ministry of Industry and Information Technology \(MIIT\) approved commercial trials for eSIM mobile phone services for the three major telecom operators. The China Academy of Information and Communications Technology \(CAICT\) released a report predicting that China will become the world&\#x27;s largest eSIM market due to its massive smartphone consumer base and manufacturing ecosystem. This regulatory approval marks a pivotal shift in China&\#x27;s telecommunications landscape, enabling the potential transition from physical SIM cards to eSIM technology. It will impact telecom operators, device manufacturers, and consumers, and could significantly boost global eSIM adoption and reduce carbon emissions. The CAICT report highlights two eSIM development paths: Apple&\#x27;s pure eSIM design without a physical slot, and Samsung and Google&\#x27;s dual SIM approach combining physical SIM and eSIM. The report also notes that eSIM reduces carbon emissions by 46% compared to physical SIM cards, and GSMA predicts eSIM will become the dominant SIM form by 2030, accounting for 42% of all SIM technology.
+AMD has acquired Taalas, a startup that develops model-specific integrated circuits \(MSICs\) for AI inference. Taalas&\#x27;s technology directly embeds neural network weights onto the chip, achieving inference speeds over 48 times faster than NVIDIA GPUs on the Llama 3.1 8B model. This acquisition signals AMD&\#x27;s strategic push into specialized AI inference hardware, potentially challenging NVIDIA&\#x27;s dominance in the AI chip market. Taalas&\#x27;s approach could dramatically reduce inference latency and power consumption for large language models, making AI deployment more efficient at scale. Taalas&\#x27;s test chip HC1, fabricated on TSMC 6nm, processed Llama 3.1 8B at 16,960 tokens per second, 48x faster than NVIDIA GPUs and 8.5x faster than Cerebras accelerators. However, the chip is model-specific; a new model requires redesigning the chip, though only two metal layers need to be replaced, reducing cost and time.
 
-telegram · zaihuapd · Aug 6, 06:59
+rss · Solidot · Aug 7, 15:23
 
-**Background**: An eSIM \(embedded SIM\) is a digital SIM card that is built directly into a device, eliminating the need for a physical SIM card. Unlike traditional physical SIM cards, eSIMs allow users to switch mobile network operators through device settings without needing to replace a card. This technology is already common in smartwatches and some smartphones, and its adoption in mobile phones is expected to grow rapidly.
+**Background**: Application-specific integrated circuits \(ASICs\) are custom chips designed for a specific task, offering higher efficiency than general-purpose processors. Taalas&\#x27;s approach is a type of weight-stationary architecture, where model weights are fixed on the chip, minimizing data movement during inference. This contrasts with GPUs, which are more flexible but less efficient for dedicated inference workloads. Cerebras is another company making large-scale AI accelerators using wafer-scale integration.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://en.wikipedia.org/wiki/ESIM">eSIM - 维基百科，自由的百科全书</a></li>
-<li><a href="https://support.apple.com/en-us/118669">Set up eSIM on iPhone - Apple Support</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Application-specific_integrated_circuit">Application- specific integrated circuit - Wikipedia</a></li>
+<li><a href="https://en.wikipedia.org/wiki/Cerebras">Cerebras Systems - Wikipedia</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#game\_rules`, `#eSIM`, `#telecommunications regulation`, `#China`
+**Tags**: `#capital\_allocation`, `#acquisition`, `#AI chips`, `#AMD`, `#Taalas`
 
 ---
 
 <a id="item-7"></a>
-## [DeepSeek Invests $20.8M in Unitree&\#x27;s Shanghai IPO for Embodied AI](https://www.reuters.com/world/asia-pacific/deepseek-invests-208-million-unitrees-shanghai-ipo-2026-08-06/) ⭐️ 8.0/10
+## [FDA Approves First mRNA Flu Vaccine](https://www.solidot.org/story?sid=85030) ⭐️ 8.0/10
 
-DeepSeek invested $20.8 million \(1.408 billion yuan\) in Unitree&\#x27;s Shanghai IPO strategic placement, acquiring 2.31% of the strategic shares. The two companies also formed a strategic partnership to co-develop AI models for humanoid robots. This investment marks a significant capital allocation into the integration of AI and robotics, specifically embodied intelligence. The partnership aims to address the core bottleneck of humanoid robots—creating a reliable &\#x27;brain&\#x27; that can understand unfamiliar environments—while also providing DeepSeek with scarce real-world data to improve its multimodal vision models. Both companies are headquartered in Hangzhou. According to exchange documents, Unitree will prioritize DeepSeek for model training services and technical solutions, while DeepSeek will prioritize Unitree for robot purchases and embodied AI applications.
+The U.S. Food and Drug Administration \(FDA\) has approved the first mRNA-based influenza vaccine, manufactured by Moderna and marketed as mFlusiva. The vaccine is expected to be available in autumn 2025 for adults aged 50 and older, pending an additional clinical trial for the elderly population. This approval marks a significant expansion of mRNA technology beyond COVID-19, potentially revolutionizing flu vaccine production with faster turnaround times and improved efficacy. The mRNA platform allows vaccine development to keep pace with rapidly evolving influenza strains, offering better protection compared to traditional vaccines. Clinical trials showed the mRNA flu vaccine is approximately 27% more effective than conventional flu vaccines. Moderna states that production from strain selection to rollout can be completed in two to three months, compared to about six months for traditional egg-based vaccines.
 
-telegram · zaihuapd · Aug 6, 14:23
+rss · Solidot · Aug 7, 07:17
 
-**Background**: Embodied intelligence \(具身智能\) refers to AI systems that can perceive, understand, and interact with the physical world through a physical body, such as a robot. It is considered a key future direction for AI, moving beyond pure software intelligence. Multimodal vision models are AI models that can process and understand multiple types of data, such as images, text, and video, enabling more comprehensive understanding of the environment. Unitree is a Chinese robotics company specializing in humanoid robots, and DeepSeek&\#x27;s investment aims to strengthen its capabilities in embodied AI and multimodal vision.
+**Background**: Traditional flu vaccines are typically produced using egg-based or cell-based methods, which require months of development and are less adaptable to emerging strains. mRNA vaccines work by instructing cells to produce a protein that triggers an immune response, allowing for faster design and manufacturing. The same platform was used successfully in Moderna and Pfizer&\#x27;s COVID-19 vaccines, demonstrating its potential for rapid pandemic response.
+
+**Tags**: `#productivity\_boundaries`, `#mRNA疫苗`, `#流感疫苗`, `#FDA批准`
+
+---
+
+<a id="item-8"></a>
+## [Anthropic Updates Fable 5 Biological Safety Guardrails, False Positives Plummet](http://claude.ai/) ⭐️ 8.0/10
+
+Anthropic revised the safety classifier rules for Claude Fable 5, reducing false positives for biology queries by 85% and overall rollbacks by 67% on Claude.ai. The update was announced on August 7, 2026. This update significantly improves user experience for biology-related queries while maintaining necessary safeguards against dual-use research. It demonstrates Anthropic&\#x27;s commitment to balancing safety and usability in AI systems. The update was achieved by rewriting the safety classifier&\#x27;s rules and training data. Professional biology and drug development requests \(e.g., virology, toxicology, molecular design\) still fall back to Opus 5 due to dual-use concerns.
+
+telegram · zaihuapd · Aug 7, 06:05
+
+**Background**: Claude Fable 5 is Anthropic&\#x27;s most capable widely released model, designed for demanding reasoning and long-cycle agentic work. Opus 5 is a previous model tier. Dual-use risk refers to the potential for AI to be used for both beneficial and harmful purposes, especially in sensitive areas like biology. Anthropic&\#x27;s safety classifier determines when to downgrade to a less capable model to prevent misuse.
 
 <details><summary>References</summary>
 <ul>
-<li><a href="https://juejin.cn/post/7486670839923359796">什么是 具 身 智 能 ？ 具 身 智 能 （Embodied Intelligence...</a></li>
-<li><a href="https://zhuanlan.zhihu.com/p/684472814">一文看完多模态：从视觉表征到多模态大模型 - 知乎</a></li>
+<li><a href="https://www.anthropic.com/news/claude-fable-5-mythos-5">Claude Fable 5 and Claude Mythos 5 \ Anthropic</a></li>
+<li><a href="https://platform.claude.com/docs/zh-CN/about-claude/models/introducing-claude-fable-5-and-claude-mythos-5">Claude Fable 5 和 Claude Mythos 5 发布介绍 - Claude Platform Docs</a></li>
 
 </ul>
 </details>
 
-**Tags**: `#capital\_allocation`, `#DeepSeek`, `#Unitree`, `#embodied intelligence`, `#IPO strategic investment`
+**Tags**: `#game\_rules`, `#AI safety`, `#Anthropic`, `#Claude`
+
+---
+
+<a id="item-9"></a>
+## [China Eastern Airlines allows free refunds 14 days before departure](https://app.xinhuanet.com/news/article.html?articleId=20260807518c3e2c03d14dfa945f444574c1c9a6) ⭐️ 8.0/10
+
+China Eastern Airlines has updated its domestic ticket refund and change policy, allowing passengers to make free voluntary refunds or changes up to 14 days before departure for tickets purchased on or after August 6. This policy gives passengers greater flexibility and reduces the financial penalty for changing travel plans, potentially setting a new industry standard and prompting other Chinese airlines to adopt similar policies. The &\#x27;14 days before departure&\#x27; is defined as 14×24 hours, or 336 hours before the scheduled departure time. The exact implementation details are subject to the official rules published on China Eastern&\#x27;s website.
+
+telegram · zaihuapd · Aug 7, 09:22
+
+**Background**: Traditionally, domestic airline tickets in China have had varying refund and change policies depending on the fare class, with many non-refundable or high-fee options. This new policy from China Eastern applies to all fare classes, offering a uniform 14-day free change/refund window. It represents a significant shift towards more customer-friendly policies in the Chinese aviation market.
+
+**Tags**: `#game\_rules`, `#airline policy`, `#ticket refund`, `#China Eastern`
+
+---
+
+<a id="item-10"></a>
+## [Chevrolet Exits China: 7.5 Million Owners, 21-Year Joint Venture Ends](https://m.mydrivers.com/newsview/1142126.html) ⭐️ 8.0/10
+
+Chevrolet has officially ended its new car retail business in China after 21 years, with SAIC-GM announcing the move. General Motors will reallocate resources to Buick and Cadillac, while domestic factories will transition to export manufacturing hubs. This marks the end of a major joint venture brand in China&\#x27;s auto market, reflecting the severe pressure on traditional fuel vehicle brands from the rise of domestic new energy vehicles. It affects 7.5 million Chevrolet owners and the dealer network, and signals GM&\#x27;s strategic pivot to focus on its premium brands in China. Chevrolet&\#x27;s annual sales in China plummeted to 52,000 units in 2025, with monthly sales dropping to single digits in recent months. Many 4S dealerships have closed. Chevrolet vehicles will not be completely discontinued; domestic factories will become export bases, and after-sales service will be handled through Buick authorized channels.
+
+telegram · zaihuapd · Aug 7, 11:12
+
+**Background**: Chevrolet entered China in 2005 through a joint venture with SAIC, becoming one of the most popular American brands with models like the Cruze and Malibu. At its peak, annual sales exceeded 600,000 units. However, the rapid growth of domestic new energy vehicle makers has eroded the market share of traditional joint venture fuel brands, leading to a sharp decline in Chevrolet&\#x27;s sales.
+
+**Tags**: `#capital\_allocation`, `#雪佛兰退出中国`, `#通用汽车战略调整`
 
 ---
